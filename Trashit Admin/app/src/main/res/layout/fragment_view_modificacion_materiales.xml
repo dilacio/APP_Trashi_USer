@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:hint="Id"
+        android:inputType="number"
+        android:maxLength="7"
+        android:minHeight="48dp"></EditText>
+    <Button
+        android:id="@+id/Buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="Buscar"
+        android:backgroundTint="#2E7D32"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/Id"></Button>
+
+    <EditText
+        android:id="@+id/MaterialName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Material"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/Informacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informacion"
+        android:inputType="text"
+        android:minHeight="48dp"></EditText>
+
+    <EditText
+        android:id="@+id/_imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Imagen"
+        android:inputType="text"
+        android:minHeight="48dp"></EditText>
+
+    <Button
+        android:id="@+id/Modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Material"
+        android:backgroundTint="#2E7D32"
+        android:text="Modificar"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"></Button>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/Material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Material"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/Material"></EditText>
+    <EditText
+        android:id="@+id/Informacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Informacion"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/Material"></EditText>
+    <EditText
+        android:id="@+id/_imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Imagen"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/_imagen"></EditText>
+
+    <Button
+        android:id="@+id/Modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/_imagen"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2E7D32"
+        android:text="Agregar"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>
